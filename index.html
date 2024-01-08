@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin=""
+  />
+  <link rel="stylesheet" href="style.css">
+  <script
+  src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+  integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+  crossorigin=""
+  ></script>
+
+  <title>ISS Location</title>
+</head>
+
+<body>
+
+  <header>
+    <h1 class="display-4 mt-0 mb-4 text-white text-center font-weight-bold">ISS Tracker</h1>
+  </header>
+
+  <div class="container-fluid">
+
+    <div class="row sm-12 col-md-12">
+      <div id="issMap">
+      </div>
+      <div id="tablex" class="span3">
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <td><strong>Altitude</strong></td>
+              <td><span id="alt"></span> km<br/></td>
+            </tr>
+            <tr>
+              <td><strong>Velocity</strong></td>
+              <td><span id="vel"></span> kmph<br/></td>
+            </tr>
+            <tr>
+              <td><strong>Latitude</strong></td>
+              <td><span id="lat"></span>°<br/></td>
+            </tr>
+            <tr>
+              <td><strong>Longitude</strong></td>
+              <td><span id="lon"></span>°<br/></td>
+            </tr>
+            <tr>
+              <td><strong>The ISS is in </strong></td>
+              <td><span id="day"></span><br/></td>
+            </tr>
+          </tbody></table>
+          <table class="table">
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+      <script src="script.js"></script>
+
+    </body>
+    </html>

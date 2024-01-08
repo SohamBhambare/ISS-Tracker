@@ -1,0 +1,65 @@
+header {
+  background-color: black;
+  opacity: 0.9;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+#issMap {
+  width: 68%;
+  height: 550px;
+  margin-left: 10px;
+}
+
+body {
+  height: 100%;
+  background-color: #DEE2D6;
+}
+
+#tablex {
+  box-sizing: border-box;
+  float: left;
+  margin-left: 1%;
+  min-height: 30px;
+  width: 30%;
+  line-height: 40px;
+  text-size-adjust: 100%;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  #issMap {
+    width: 85%;
+    height: 400px;
+    margin-left: 11.5%;
+  }
+
+  #tablex {
+    box-sizing: border-box;
+    float: left;
+    margin-left: 11.5%;
+    min-height: 30px;
+    width: 85%;
+    line-height: 40px;
+    text-size-adjust: 100%;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width: 1366px) {
+  #issMap {
+    width: 69%;
+    height: 500px;
+    margin-left: 1%;
+  }
+
+  #tablex {
+    box-sizing: border-box;
+    float: left;
+    margin-left: 1%;
+    min-height: 5px;
+    width: 29%;
+    line-height: 40px;
+    text-size-adjust: 100%;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  }
+}
